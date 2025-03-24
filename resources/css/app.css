@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { padding-top: 60px; }
+.navbar { transition: background-color 0.5s ease; }
+
+/* General Styles */
+body {
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding-top: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+/* Center Content */
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Profile Text */
+.profile-text {
+    text-align: center;
+}
+
+.profile-text .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Button */
+.btn-custom {
+    padding: 12px 30px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    transform: scale(1.1);
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 200px; /* Adjust size */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px; /* Space between text and image */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
