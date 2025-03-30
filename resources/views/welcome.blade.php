@@ -11,6 +11,11 @@
     <!-- Custom CSS -->
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
     <!-- Boxicons -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -32,6 +37,7 @@
             font-weight: bold;
             color: #007bff !important;
         }
+     
     </style>
 </head>
 <body class="bg-light text-dark">
@@ -48,12 +54,16 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="{{ route('home') }}" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="{{ route('blog') }}" class="nav-link">Blog</a></li> 
+                    <li class="nav-item"><a href="{{ route('news') }}" class="nav-link">News</a></li> 
                     <li class="nav-item"><a href="{{ route('about') }}" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{{ route('try') }}" class="nav-link">Try</a></li>
                     <li class="nav-item"><a href="{{ route('education') }}" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="{{ route('skills') }}" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="{{ route('projects') }}" class="nav-link">Project</a></li>
                     <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Login</a></li>
                     <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Register</a></li>
+                    
+                    
                 </ul>
             </div>
         </div>
@@ -66,6 +76,7 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <!-- Custom JS -->
 <script src="{{ asset('js/scripts.js') }}"></script>
